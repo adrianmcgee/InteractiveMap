@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF70BF2C1EB993F100ECC02B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF70BF2B1EB993F100ECC02B /* main.m */; };
+		BF70BF2F1EB993F100ECC02B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF70BF2E1EB993F100ECC02B /* AppDelegate.m */; };
+		BF70BF321EB993F100ECC02B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF70BF311EB993F100ECC02B /* ViewController.m */; };
+		BF70BF351EB993F100ECC02B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF70BF331EB993F100ECC02B /* Main.storyboard */; };
+		BF70BF371EB993F100ECC02B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF70BF361EB993F100ECC02B /* Assets.xcassets */; };
+		BF70BF3A1EB993F100ECC02B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF70BF381EB993F100ECC02B /* LaunchScreen.storyboard */; };
+		BF70BF451EB993F100ECC02B /* InteractiveMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF70BF441EB993F100ECC02B /* InteractiveMapTests.m */; };
+		BF70BF501EB993F100ECC02B /* InteractiveMapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF70BF4F1EB993F100ECC02B /* InteractiveMapUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF70BF411EB993F100ECC02B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF70BF1F1EB993F100ECC02B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF70BF261EB993F100ECC02B;
+			remoteInfo = InteractiveMap;
+		};
+		BF70BF4C1EB993F100ECC02B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF70BF1F1EB993F100ECC02B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF70BF261EB993F100ECC02B;
+			remoteInfo = InteractiveMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF70BF271EB993F100ECC02B /* InteractiveMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InteractiveMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF70BF2B1EB993F100ECC02B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF70BF2D1EB993F100ECC02B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF70BF2E1EB993F100ECC02B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF70BF301EB993F100ECC02B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF70BF311EB993F100ECC02B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF70BF341EB993F100ECC02B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF70BF361EB993F100ECC02B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF70BF391EB993F100ECC02B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF70BF3B1EB993F100ECC02B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF70BF401EB993F100ECC02B /* InteractiveMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InteractiveMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF70BF441EB993F100ECC02B /* InteractiveMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InteractiveMapTests.m; sourceTree = "<group>"; };
+		BF70BF461EB993F100ECC02B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF70BF4B1EB993F100ECC02B /* InteractiveMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InteractiveMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF70BF4F1EB993F100ECC02B /* InteractiveMapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InteractiveMapUITests.m; sourceTree = "<group>"; };
+		BF70BF511EB993F100ECC02B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF70BF241EB993F100ECC02B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF70BF3D1EB993F100ECC02B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF70BF481EB993F100ECC02B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF70BF1E1EB993F100ECC02B = {
+			isa = PBXGroup;
+			children = (
+				BF70BF291EB993F100ECC02B /* InteractiveMap */,
+				BF70BF431EB993F100ECC02B /* InteractiveMapTests */,
+				BF70BF4E1EB993F100ECC02B /* InteractiveMapUITests */,
+				BF70BF281EB993F100ECC02B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF70BF281EB993F100ECC02B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF70BF271EB993F100ECC02B /* InteractiveMap.app */,
+				BF70BF401EB993F100ECC02B /* InteractiveMapTests.xctest */,
+				BF70BF4B1EB993F100ECC02B /* InteractiveMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF70BF291EB993F100ECC02B /* InteractiveMap */ = {
+			isa = PBXGroup;
+			children = (
+				BF70BF2D1EB993F100ECC02B /* AppDelegate.h */,
+				BF70BF2E1EB993F100ECC02B /* AppDelegate.m */,
+				BF70BF301EB993F100ECC02B /* ViewController.h */,
+				BF70BF311EB993F100ECC02B /* ViewController.m */,
+				BF70BF331EB993F100ECC02B /* Main.storyboard */,
+				BF70BF361EB993F100ECC02B /* Assets.xcassets */,
+				BF70BF381EB993F100ECC02B /* LaunchScreen.storyboard */,
+				BF70BF3B1EB993F100ECC02B /* Info.plist */,
+				BF70BF2A1EB993F100ECC02B /* Supporting Files */,
+			);
+			path = InteractiveMap;
+			sourceTree = "<group>";
+		};
+		BF70BF2A1EB993F100ECC02B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF70BF2B1EB993F100ECC02B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF70BF431EB993F100ECC02B /* InteractiveMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF70BF441EB993F100ECC02B /* InteractiveMapTests.m */,
+				BF70BF461EB993F100ECC02B /* Info.plist */,
+			);
+			path = InteractiveMapTests;
+			sourceTree = "<group>";
+		};
+		BF70BF4E1EB993F100ECC02B /* InteractiveMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF70BF4F1EB993F100ECC02B /* InteractiveMapUITests.m */,
+				BF70BF511EB993F100ECC02B /* Info.plist */,
+			);
+			path = InteractiveMapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF70BF261EB993F100ECC02B /* InteractiveMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF70BF541EB993F100ECC02B /* Build configuration list for PBXNativeTarget "InteractiveMap" */;
+			buildPhases = (
+				BF70BF231EB993F100ECC02B /* Sources */,
+				BF70BF241EB993F100ECC02B /* Frameworks */,
+				BF70BF251EB993F100ECC02B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InteractiveMap;
+			productName = InteractiveMap;
+			productReference = BF70BF271EB993F100ECC02B /* InteractiveMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF70BF3F1EB993F100ECC02B /* InteractiveMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF70BF571EB993F100ECC02B /* Build configuration list for PBXNativeTarget "InteractiveMapTests" */;
+			buildPhases = (
+				BF70BF3C1EB993F100ECC02B /* Sources */,
+				BF70BF3D1EB993F100ECC02B /* Frameworks */,
+				BF70BF3E1EB993F100ECC02B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF70BF421EB993F100ECC02B /* PBXTargetDependency */,
+			);
+			name = InteractiveMapTests;
+			productName = InteractiveMapTests;
+			productReference = BF70BF401EB993F100ECC02B /* InteractiveMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF70BF4A1EB993F100ECC02B /* InteractiveMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF70BF5A1EB993F100ECC02B /* Build configuration list for PBXNativeTarget "InteractiveMapUITests" */;
+			buildPhases = (
+				BF70BF471EB993F100ECC02B /* Sources */,
+				BF70BF481EB993F100ECC02B /* Frameworks */,
+				BF70BF491EB993F100ECC02B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF70BF4D1EB993F100ECC02B /* PBXTargetDependency */,
+			);
+			name = InteractiveMapUITests;
+			productName = InteractiveMapUITests;
+			productReference = BF70BF4B1EB993F100ECC02B /* InteractiveMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF70BF1F1EB993F100ECC02B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Adrian McGee";
+				TargetAttributes = {
+					BF70BF261EB993F100ECC02B = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					BF70BF3F1EB993F100ECC02B = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BF70BF261EB993F100ECC02B;
+					};
+					BF70BF4A1EB993F100ECC02B = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BF70BF261EB993F100ECC02B;
+					};
+				};
+			};
+			buildConfigurationList = BF70BF221EB993F100ECC02B /* Build configuration list for PBXProject "InteractiveMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF70BF1E1EB993F100ECC02B;
+			productRefGroup = BF70BF281EB993F100ECC02B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF70BF261EB993F100ECC02B /* InteractiveMap */,
+				BF70BF3F1EB993F100ECC02B /* InteractiveMapTests */,
+				BF70BF4A1EB993F100ECC02B /* InteractiveMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF70BF251EB993F100ECC02B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF70BF3A1EB993F100ECC02B /* LaunchScreen.storyboard in Resources */,
+				BF70BF371EB993F100ECC02B /* Assets.xcassets in Resources */,
+				BF70BF351EB993F100ECC02B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF70BF3E1EB993F100ECC02B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF70BF491EB993F100ECC02B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF70BF231EB993F100ECC02B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF70BF321EB993F100ECC02B /* ViewController.m in Sources */,
+				BF70BF2F1EB993F100ECC02B /* AppDelegate.m in Sources */,
+				BF70BF2C1EB993F100ECC02B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF70BF3C1EB993F100ECC02B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF70BF451EB993F100ECC02B /* InteractiveMapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF70BF471EB993F100ECC02B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF70BF501EB993F100ECC02B /* InteractiveMapUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF70BF421EB993F100ECC02B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF70BF261EB993F100ECC02B /* InteractiveMap */;
+			targetProxy = BF70BF411EB993F100ECC02B /* PBXContainerItemProxy */;
+		};
+		BF70BF4D1EB993F100ECC02B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF70BF261EB993F100ECC02B /* InteractiveMap */;
+			targetProxy = BF70BF4C1EB993F100ECC02B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF70BF331EB993F100ECC02B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF70BF341EB993F100ECC02B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF70BF381EB993F100ECC02B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF70BF391EB993F100ECC02B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF70BF521EB993F100ECC02B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF70BF531EB993F100ECC02B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF70BF551EB993F100ECC02B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InteractiveMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adrianmcgee.InteractiveMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF70BF561EB993F100ECC02B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InteractiveMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adrianmcgee.InteractiveMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF70BF581EB993F100ECC02B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InteractiveMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adrianmcgee.InteractiveMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InteractiveMap.app/InteractiveMap";
+			};
+			name = Debug;
+		};
+		BF70BF591EB993F100ECC02B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InteractiveMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adrianmcgee.InteractiveMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InteractiveMap.app/InteractiveMap";
+			};
+			name = Release;
+		};
+		BF70BF5B1EB993F100ECC02B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InteractiveMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adrianmcgee.InteractiveMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InteractiveMap;
+			};
+			name = Debug;
+		};
+		BF70BF5C1EB993F100ECC02B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InteractiveMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adrianmcgee.InteractiveMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InteractiveMap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF70BF221EB993F100ECC02B /* Build configuration list for PBXProject "InteractiveMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF70BF521EB993F100ECC02B /* Debug */,
+				BF70BF531EB993F100ECC02B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF70BF541EB993F100ECC02B /* Build configuration list for PBXNativeTarget "InteractiveMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF70BF551EB993F100ECC02B /* Debug */,
+				BF70BF561EB993F100ECC02B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF70BF571EB993F100ECC02B /* Build configuration list for PBXNativeTarget "InteractiveMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF70BF581EB993F100ECC02B /* Debug */,
+				BF70BF591EB993F100ECC02B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF70BF5A1EB993F100ECC02B /* Build configuration list for PBXNativeTarget "InteractiveMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF70BF5B1EB993F100ECC02B /* Debug */,
+				BF70BF5C1EB993F100ECC02B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF70BF1F1EB993F100ECC02B /* Project object */;
+}
