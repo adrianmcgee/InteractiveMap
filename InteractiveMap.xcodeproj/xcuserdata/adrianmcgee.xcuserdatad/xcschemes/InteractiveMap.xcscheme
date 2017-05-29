@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BF70BF261EB993F100ECC02B"
+               BuildableName = "InteractiveMap.app"
+               BlueprintName = "InteractiveMap"
+               ReferencedContainer = "container:InteractiveMap.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BF70BF3F1EB993F100ECC02B"
+               BuildableName = "InteractiveMapTests.xctest"
+               BlueprintName = "InteractiveMapTests"
+               ReferencedContainer = "container:InteractiveMap.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BF70BF4A1EB993F100ECC02B"
+               BuildableName = "InteractiveMapUITests.xctest"
+               BlueprintName = "InteractiveMapUITests"
+               ReferencedContainer = "container:InteractiveMap.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "BF70BF261EB993F100ECC02B"
+            BuildableName = "InteractiveMap.app"
+            BlueprintName = "InteractiveMap"
+            ReferencedContainer = "container:InteractiveMap.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "BF70BF261EB993F100ECC02B"
+            BuildableName = "InteractiveMap.app"
+            BlueprintName = "InteractiveMap"
+            ReferencedContainer = "container:InteractiveMap.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "BF70BF261EB993F100ECC02B"
+            BuildableName = "InteractiveMap.app"
+            BlueprintName = "InteractiveMap"
+            ReferencedContainer = "container:InteractiveMap.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

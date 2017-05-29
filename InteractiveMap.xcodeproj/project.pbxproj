@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF13E0C81EC33C46004CC525 /* adelaide.png in Resources */ = {isa = PBXBuildFile; fileRef = BF13E0B61EC33C46004CC525 /* adelaide.png */; };
+		BF13E0C91EC33C46004CC525 /* brisbane.png in Resources */ = {isa = PBXBuildFile; fileRef = BF13E0B71EC33C46004CC525 /* brisbane.png */; };
+		BF13E0CA1EC33C46004CC525 /* carlton.png in Resources */ = {isa = PBXBuildFile; fileRef = BF13E0B81EC33C46004CC525 /* carlton.png */; };
+		BF13E0CB1EC33C46004CC525 /* collingwood.png in Resources */ = {isa = PBXBuildFile; fileRef = BF13E0B91EC33C46004CC525 /* collingwood.png */; };
+		BF13E0CC1EC33C46004CC525 /* essendon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF13E0BA1EC33C46004CC525 /* essendon.png */; };
+		BF13E0CD1EC33C46004CC525 /* fremantle.png in Resources */ = {isa = PBXBuildFile; fileRef = BF13E0BB1EC33C46004CC525 /* fremantle.png */; };
+		BF13E0CE1EC33C46004CC525 /* geelong.png in Resources */ = {isa = PBXBuildFile; fileRef = BF13E0BC1EC33C46004CC525 /* geelong.png */; };
+		BF13E0CF1EC33C46004CC525 /* goldcoast.png in Resources */ = {isa = PBXBuildFile; fileRef = BF13E0BD1EC33C46004CC525 /* goldcoast.png */; };
+		BF13E0D01EC33C46004CC525 /* gws.png in Resources */ = {isa = PBXBuildFile; fileRef = BF13E0BE1EC33C46004CC525 /* gws.png */; };
+		BF13E0D11EC33C46004CC525 /* hawthorn.png in Resources */ = {isa = PBXBuildFile; fileRef = BF13E0BF1EC33C46004CC525 /* hawthorn.png */; };
+		BF13E0D21EC33C46004CC525 /* melbourne.png in Resources */ = {isa = PBXBuildFile; fileRef = BF13E0C01EC33C46004CC525 /* melbourne.png */; };
+		BF13E0D31EC33C46004CC525 /* northmelbourne.png in Resources */ = {isa = PBXBuildFile; fileRef = BF13E0C11EC33C46004CC525 /* northmelbourne.png */; };
+		BF13E0D41EC33C46004CC525 /* portadelaide.png in Resources */ = {isa = PBXBuildFile; fileRef = BF13E0C21EC33C46004CC525 /* portadelaide.png */; };
+		BF13E0D51EC33C46004CC525 /* richmond.png in Resources */ = {isa = PBXBuildFile; fileRef = BF13E0C31EC33C46004CC525 /* richmond.png */; };
+		BF13E0D61EC33C46004CC525 /* stkilda.png in Resources */ = {isa = PBXBuildFile; fileRef = BF13E0C41EC33C46004CC525 /* stkilda.png */; };
+		BF13E0D71EC33C46004CC525 /* sydney.png in Resources */ = {isa = PBXBuildFile; fileRef = BF13E0C51EC33C46004CC525 /* sydney.png */; };
+		BF13E0D81EC33C46004CC525 /* westcoast.png in Resources */ = {isa = PBXBuildFile; fileRef = BF13E0C61EC33C46004CC525 /* westcoast.png */; };
+		BF13E0D91EC33C46004CC525 /* westernbulldogs.png in Resources */ = {isa = PBXBuildFile; fileRef = BF13E0C71EC33C46004CC525 /* westernbulldogs.png */; };
+		BF17E53D1EC0996B00646FF1 /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = BF17E53C1EC0996B00646FF1 /* Team.m */; };
+		BF51F2A61EC3C4670067193E /* afl.png in Resources */ = {isa = PBXBuildFile; fileRef = BF51F2A51EC3C4670067193E /* afl.png */; };
 		BF70BF2C1EB993F100ECC02B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF70BF2B1EB993F100ECC02B /* main.m */; };
 		BF70BF2F1EB993F100ECC02B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF70BF2E1EB993F100ECC02B /* AppDelegate.m */; };
 		BF70BF321EB993F100ECC02B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF70BF311EB993F100ECC02B /* ViewController.m */; };
@@ -15,6 +35,10 @@
 		BF70BF3A1EB993F100ECC02B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF70BF381EB993F100ECC02B /* LaunchScreen.storyboard */; };
 		BF70BF451EB993F100ECC02B /* InteractiveMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF70BF441EB993F100ECC02B /* InteractiveMapTests.m */; };
 		BF70BF501EB993F100ECC02B /* InteractiveMapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF70BF4F1EB993F100ECC02B /* InteractiveMapUITests.m */; };
+		BF70BF5F1EB9941E00ECC02B /* InteractiveMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF70BF5E1EB9941E00ECC02B /* InteractiveMapViewController.m */; };
+		BF70BF921EB9974100ECC02B /* scripts in Resources */ = {isa = PBXBuildFile; fileRef = BF70BF911EB9974100ECC02B /* scripts */; };
+		BF70BF941EB9984A00ECC02B /* map.html in Resources */ = {isa = PBXBuildFile; fileRef = BF70BF931EB9984A00ECC02B /* map.html */; };
+		BF7474EB1EC1211000A68CFF /* ClubCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7474EA1EC1211000A68CFF /* ClubCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +59,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF13E0B61EC33C46004CC525 /* adelaide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = adelaide.png; sourceTree = "<group>"; };
+		BF13E0B71EC33C46004CC525 /* brisbane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brisbane.png; sourceTree = "<group>"; };
+		BF13E0B81EC33C46004CC525 /* carlton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carlton.png; sourceTree = "<group>"; };
+		BF13E0B91EC33C46004CC525 /* collingwood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = collingwood.png; sourceTree = "<group>"; };
+		BF13E0BA1EC33C46004CC525 /* essendon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = essendon.png; sourceTree = "<group>"; };
+		BF13E0BB1EC33C46004CC525 /* fremantle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fremantle.png; sourceTree = "<group>"; };
+		BF13E0BC1EC33C46004CC525 /* geelong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = geelong.png; sourceTree = "<group>"; };
+		BF13E0BD1EC33C46004CC525 /* goldcoast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goldcoast.png; sourceTree = "<group>"; };
+		BF13E0BE1EC33C46004CC525 /* gws.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gws.png; sourceTree = "<group>"; };
+		BF13E0BF1EC33C46004CC525 /* hawthorn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hawthorn.png; sourceTree = "<group>"; };
+		BF13E0C01EC33C46004CC525 /* melbourne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = melbourne.png; sourceTree = "<group>"; };
+		BF13E0C11EC33C46004CC525 /* northmelbourne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = northmelbourne.png; sourceTree = "<group>"; };
+		BF13E0C21EC33C46004CC525 /* portadelaide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = portadelaide.png; sourceTree = "<group>"; };
+		BF13E0C31EC33C46004CC525 /* richmond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = richmond.png; sourceTree = "<group>"; };
+		BF13E0C41EC33C46004CC525 /* stkilda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stkilda.png; sourceTree = "<group>"; };
+		BF13E0C51EC33C46004CC525 /* sydney.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sydney.png; sourceTree = "<group>"; };
+		BF13E0C61EC33C46004CC525 /* westcoast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = westcoast.png; sourceTree = "<group>"; };
+		BF13E0C71EC33C46004CC525 /* westernbulldogs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = westernbulldogs.png; sourceTree = "<group>"; };
+		BF17E53B1EC0996B00646FF1 /* Team.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Team.h; sourceTree = "<group>"; };
+		BF17E53C1EC0996B00646FF1 /* Team.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Team.m; sourceTree = "<group>"; };
+		BF51F2A51EC3C4670067193E /* afl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = afl.png; sourceTree = "<group>"; };
 		BF70BF271EB993F100ECC02B /* InteractiveMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InteractiveMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF70BF2B1EB993F100ECC02B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BF70BF2D1EB993F100ECC02B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +96,12 @@
 		BF70BF4B1EB993F100ECC02B /* InteractiveMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InteractiveMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF70BF4F1EB993F100ECC02B /* InteractiveMapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InteractiveMapUITests.m; sourceTree = "<group>"; };
 		BF70BF511EB993F100ECC02B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF70BF5D1EB9941E00ECC02B /* InteractiveMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractiveMapViewController.h; sourceTree = "<group>"; };
+		BF70BF5E1EB9941E00ECC02B /* InteractiveMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractiveMapViewController.m; sourceTree = "<group>"; };
+		BF70BF911EB9974100ECC02B /* scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = scripts; sourceTree = "<group>"; };
+		BF70BF931EB9984A00ECC02B /* map.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = map.html; sourceTree = "<group>"; };
+		BF7474E91EC1211000A68CFF /* ClubCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClubCollectionViewCell.h; sourceTree = "<group>"; };
+		BF7474EA1EC1211000A68CFF /* ClubCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClubCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +129,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF13E0B51EC33C46004CC525 /* logos */ = {
+			isa = PBXGroup;
+			children = (
+				BF51F2A51EC3C4670067193E /* afl.png */,
+				BF13E0B61EC33C46004CC525 /* adelaide.png */,
+				BF13E0B71EC33C46004CC525 /* brisbane.png */,
+				BF13E0B81EC33C46004CC525 /* carlton.png */,
+				BF13E0B91EC33C46004CC525 /* collingwood.png */,
+				BF13E0BA1EC33C46004CC525 /* essendon.png */,
+				BF13E0BB1EC33C46004CC525 /* fremantle.png */,
+				BF13E0BC1EC33C46004CC525 /* geelong.png */,
+				BF13E0BD1EC33C46004CC525 /* goldcoast.png */,
+				BF13E0BE1EC33C46004CC525 /* gws.png */,
+				BF13E0BF1EC33C46004CC525 /* hawthorn.png */,
+				BF13E0C01EC33C46004CC525 /* melbourne.png */,
+				BF13E0C11EC33C46004CC525 /* northmelbourne.png */,
+				BF13E0C21EC33C46004CC525 /* portadelaide.png */,
+				BF13E0C31EC33C46004CC525 /* richmond.png */,
+				BF13E0C41EC33C46004CC525 /* stkilda.png */,
+				BF13E0C51EC33C46004CC525 /* sydney.png */,
+				BF13E0C61EC33C46004CC525 /* westcoast.png */,
+				BF13E0C71EC33C46004CC525 /* westernbulldogs.png */,
+			);
+			path = logos;
+			sourceTree = "<group>";
+		};
 		BF70BF1E1EB993F100ECC02B = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +178,21 @@
 		BF70BF291EB993F100ECC02B /* InteractiveMap */ = {
 			isa = PBXGroup;
 			children = (
+				BF17E53B1EC0996B00646FF1 /* Team.h */,
+				BF17E53C1EC0996B00646FF1 /* Team.m */,
 				BF70BF2D1EB993F100ECC02B /* AppDelegate.h */,
 				BF70BF2E1EB993F100ECC02B /* AppDelegate.m */,
 				BF70BF301EB993F100ECC02B /* ViewController.h */,
 				BF70BF311EB993F100ECC02B /* ViewController.m */,
+				BF70BF5D1EB9941E00ECC02B /* InteractiveMapViewController.h */,
+				BF70BF5E1EB9941E00ECC02B /* InteractiveMapViewController.m */,
 				BF70BF331EB993F100ECC02B /* Main.storyboard */,
+				BF7474E91EC1211000A68CFF /* ClubCollectionViewCell.h */,
+				BF7474EA1EC1211000A68CFF /* ClubCollectionViewCell.m */,
 				BF70BF361EB993F100ECC02B /* Assets.xcassets */,
 				BF70BF381EB993F100ECC02B /* LaunchScreen.storyboard */,
 				BF70BF3B1EB993F100ECC02B /* Info.plist */,
+				BF70BF601EB9972D00ECC02B /* Resources */,
 				BF70BF2A1EB993F100ECC02B /* Supporting Files */,
 			);
 			path = InteractiveMap;
@@ -138,6 +222,16 @@
 				BF70BF511EB993F100ECC02B /* Info.plist */,
 			);
 			path = InteractiveMapUITests;
+			sourceTree = "<group>";
+		};
+		BF70BF601EB9972D00ECC02B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF13E0B51EC33C46004CC525 /* logos */,
+				BF70BF931EB9984A00ECC02B /* map.html */,
+				BF70BF911EB9974100ECC02B /* scripts */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +301,7 @@
 				TargetAttributes = {
 					BF70BF261EB993F100ECC02B = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 36W2N5S5P8;
 						ProvisioningStyle = Automatic;
 					};
 					BF70BF3F1EB993F100ECC02B = {
@@ -247,8 +342,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF70BF3A1EB993F100ECC02B /* LaunchScreen.storyboard in Resources */,
+				BF13E0CF1EC33C46004CC525 /* goldcoast.png in Resources */,
+				BF13E0CA1EC33C46004CC525 /* carlton.png in Resources */,
 				BF70BF371EB993F100ECC02B /* Assets.xcassets in Resources */,
+				BF70BF941EB9984A00ECC02B /* map.html in Resources */,
+				BF13E0CC1EC33C46004CC525 /* essendon.png in Resources */,
+				BF13E0D71EC33C46004CC525 /* sydney.png in Resources */,
+				BF13E0D61EC33C46004CC525 /* stkilda.png in Resources */,
+				BF13E0D11EC33C46004CC525 /* hawthorn.png in Resources */,
+				BF13E0D41EC33C46004CC525 /* portadelaide.png in Resources */,
+				BF13E0D51EC33C46004CC525 /* richmond.png in Resources */,
+				BF13E0CB1EC33C46004CC525 /* collingwood.png in Resources */,
 				BF70BF351EB993F100ECC02B /* Main.storyboard in Resources */,
+				BF13E0D21EC33C46004CC525 /* melbourne.png in Resources */,
+				BF13E0D31EC33C46004CC525 /* northmelbourne.png in Resources */,
+				BF13E0CD1EC33C46004CC525 /* fremantle.png in Resources */,
+				BF13E0D91EC33C46004CC525 /* westernbulldogs.png in Resources */,
+				BF13E0C91EC33C46004CC525 /* brisbane.png in Resources */,
+				BF13E0C81EC33C46004CC525 /* adelaide.png in Resources */,
+				BF70BF921EB9974100ECC02B /* scripts in Resources */,
+				BF13E0D81EC33C46004CC525 /* westcoast.png in Resources */,
+				BF51F2A61EC3C4670067193E /* afl.png in Resources */,
+				BF13E0CE1EC33C46004CC525 /* geelong.png in Resources */,
+				BF13E0D01EC33C46004CC525 /* gws.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +389,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF70BF5F1EB9941E00ECC02B /* InteractiveMapViewController.m in Sources */,
 				BF70BF321EB993F100ECC02B /* ViewController.m in Sources */,
 				BF70BF2F1EB993F100ECC02B /* AppDelegate.m in Sources */,
+				BF7474EB1EC1211000A68CFF /* ClubCollectionViewCell.m in Sources */,
+				BF17E53D1EC0996B00646FF1 /* Team.m in Sources */,
 				BF70BF2C1EB993F100ECC02B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,7 +545,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 36W2N5S5P8;
 				INFOPLIST_FILE = InteractiveMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adrianmcgee.InteractiveMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,7 +558,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 36W2N5S5P8;
 				INFOPLIST_FILE = InteractiveMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adrianmcgee.InteractiveMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -509,6 +632,7 @@
 				BF70BF561EB993F100ECC02B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF70BF571EB993F100ECC02B /* Build configuration list for PBXNativeTarget "InteractiveMapTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +641,7 @@
 				BF70BF591EB993F100ECC02B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF70BF5A1EB993F100ECC02B /* Build configuration list for PBXNativeTarget "InteractiveMapUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +650,7 @@
 				BF70BF5C1EB993F100ECC02B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
